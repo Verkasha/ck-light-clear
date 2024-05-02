@@ -21,4 +21,5 @@ python main.py
 
 ## Ссылка
 [http://localhost:7500](http://localhost:7500)
+[http://localhost:7500/docs](http://localhost:7500/docs)
 
