@@ -15,6 +15,10 @@ pip install -r requirements.txt
 python main.py
 ```
 
+## Отредактируйте файлы
+- database/migrations/create_book_table.py
+- app/routes/book.py
+
 ## Ссылка
 [http://localhost:7500](http://localhost:7500)
 

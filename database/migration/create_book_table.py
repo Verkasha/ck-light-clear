@@ -11,18 +11,13 @@ def handler(cur: sqlite3.Cursor):
     # year - год издания
     # isbn - ISBN книги
 
+    # TODO: Напишите запрос к базе данных, который создаст таблицу books, если она еще не существует
     # Проверка, что таблица не существует
-    if cur.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='books'").fetchone():
-        return
+    # if cur.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='books'").fetchone():
+    #     return
 
-    cur.execute("""
-        CREATE TABLE books (
-            id INTEGER PRIMARY KEY,
-            author TEXT NOT NULL,
-            country TEXT NOT NULL,
-            title TEXT NOT NULL,
-            year INTEGER NOT NULL,
-            isbn TEXT NOT NULL
-        )
-    """)
+    # cur.execute("""
+    #     ВАШ SQL ЗАПРОС ДЛЯ СОЗДАНИЯ ТАБЛИЦЫ
+    # """)
+    pass
 
